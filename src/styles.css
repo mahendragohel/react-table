@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+}
+.border-bottom-2 {
+  border-bottom: 2px solid #000;
+  color: #1976d2;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ddd;
+}
+
+.cell-padding {
+  padding: 10px 25px 10px 25px;
+}
+
+.cell-padding-left-right {
+  padding: 0px 25px 0px 25px;
+}
+
+table {
+  border-spacing: 0px;
+  text-align: left;
+}
+
+.child-table {
+  min-height: 0px;
+  height: auto;
+  transition-duration: 266ms;
+  transition: height 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+
+.no-height {
+  height: 0;
+}
+
+.fadeOut {
+  opacity: 0;
+  height: 0;
+  transition: height 0.3s 0.1s, opacity 0.2s;
+}
+.fadeIn {
+  opacity: 1;
+  height: 100px;
+  transition: height 0.3s, opacity 0.3s 0.2s;
+}
